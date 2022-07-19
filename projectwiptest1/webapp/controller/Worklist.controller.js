@@ -20,6 +20,10 @@ sap.ui.define([
          * @public
          */
         onInit : function () {
+            var suman;
+            suman = 10;
+            suman = suman+suman;
+            
             var oViewModel;
 
             // keeps the search state
